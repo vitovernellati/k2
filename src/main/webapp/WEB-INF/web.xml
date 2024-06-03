@@ -29,6 +29,16 @@
   -->
   </security-constraint>
   
+  	<filter>
+    	<filter-name>ClickjackingProtectionFilter</filter-name>
+    	<filter-class>com.example.ClickjackingProtectionFilter</filter-class>
+	</filter>
+	<filter-mapping>
+    	<filter-name>ClickjackingProtectionFilter</filter-name>
+    	<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+  
   <security-role>
   	<role-name>administrator</role-name>
   </security-role>
