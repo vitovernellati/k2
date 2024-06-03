@@ -19,7 +19,6 @@ public class DriverManagerConnectionPool {
 			e.printStackTrace();
 		}
 	}
-	
 	private static Connection createDBConnection() throws SQLException {
 		Connection newConnection = null;
 		String db = "GeekFactoryDB";
