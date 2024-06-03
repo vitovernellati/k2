@@ -23,7 +23,7 @@ public class DriverManagerConnectionPool {
 		Connection newConnection = null;
 		String db = "GeekFactoryDB";
 		String username = "root";
-		String password = "root";
+		String password = "vito.mysql";
 
 		newConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/"+db, username, password);
 		
