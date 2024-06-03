@@ -1,11 +1,10 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1" import="model.CartBean, model.ProductBean, model.UserBean, java.util.*"%>
 <%
-	if (session.getAttribute("carrello") == null) {
-		CartBean carrello = new CartBean();
-		session.setAttribute("carrello", carrello);
-	}
+    if (session.getAttribute("carrello") == null) {
+        CartBean carrello = new CartBean();
+        session.setAttribute("carrello", carrello);
+    }
 %>
 <!DOCTYPE html>
 <html>
