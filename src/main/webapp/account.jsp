@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import="model.UserBean"%>
+    pageEncoding="ISO-8859-1" import="model.OrderBean, model.ProductBean, java.text.DecimalFormat, java.util.*" %>
+
 <% if (session.getAttribute("registeredUser") == null) {
 		response.sendRedirect("loginPage.jsp");
 	}

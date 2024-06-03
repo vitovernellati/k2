@@ -7,7 +7,6 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-import javax.servlet.RequestDispatcher;
 
 public class PreferitiModel {
 	public synchronized Collection<ProductBean> updatePreferiti(ProductBean bean, Collection<ProductBean> collection) {
